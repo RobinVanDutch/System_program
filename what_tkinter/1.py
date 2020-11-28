@@ -8,6 +8,7 @@ buttmin = Button(text = "-", width = 20)
 buttpow = Button(text = "*", width = 20)
 buttdiv = Button(text = "/", width = 20)
 otv = Label(width = 50)
+
 def sum(event):
     try:
         a = float(num.get())
